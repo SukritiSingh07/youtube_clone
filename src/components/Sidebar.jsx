@@ -178,6 +178,11 @@ export default function Sidebar(){
                     return <li key={name}>{name}</li>
                 })}
             </ul>
+            <span className="px-4 text-sm text-zinc-400">&copy; 2022 Google</span>
+            <br />
+            <p className="px pt-3 text-sm text-zinc-400">
+                This clone is for education purpose only.
+            </p>
         </div>
     );
 }
